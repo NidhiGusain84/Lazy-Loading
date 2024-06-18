@@ -1,0 +1,7 @@
+<template>
+    <lightning-card title="Accounts List">
+        <div style="height: 500px">
+        <lightning-datatable key-field="Id" data={accounts} columns={columns} hide-checkbox-column show-row-number-column enable-infinite-loading={enableInfiniteLoading} onloadmore={loadMoreHandler}></lightning-datatable>
+    </div>
+    </lightning-card>
+</template>
